@@ -2,7 +2,7 @@
 
 # Jiayu.skill
 
-> "Growth 没有银弹，只有把每个渠道的 ROI 算明白，然后 all in 最高的那个。"
+> "Growth 没有捷径，把每个渠道的 ROI 算明白，然后 all in 最高的那个。"
 
 **把 Growth Marketing 的工作流蒸馏成 AI Skill，让它替她工作。**
 
