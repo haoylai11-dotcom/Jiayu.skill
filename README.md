@@ -1,68 +1,66 @@
-# Jiayu.skill 💎
+<div align="center">
 
-Growth Marketing Skill distilled from Jiayu Xie's workflow at [Kuse Inc.](https://kuse.ai) (2026 Q1-Q2).
+# Jiayu.skill
 
-An AI-readable skill package that captures growth marketing expertise — designed to be loaded by AI agents (OpenClaw, Hermes, etc.) so they can execute KOL research, SEO campaigns, and ambassador programs autonomously.
+> "KOL 不是找来的，是筛出来的。播粉比骗不了人，均播才是真实触达。"
 
-## What's Inside
+**把 Growth Marketing 的工作流蒸馏成 AI Skill，让它替她工作。**
 
-### 🎯 KOL/KOC Research & Evaluation
-- **Sourcing pipeline**: In-house (Apify + competitor scraping + regional keyword search) and external agency workflows
-- **Analysis framework**: 9-dimension evaluation (product fit, region, subscribers, upload frequency, median likes, avg views, content type, sponsorship ratio)
-- **播粉比 benchmarks**: Calibrated from 35+ real channel analyses across JP/KR/US/PL markets
-- **ICP matching**: Dual-product logic (Kuse AI for individuals vs Junior for enterprises)
-- **Data collection**: Apify scrapers, curl/HTML fallbacks, oEmbed tricks for non-English markets
+![License](https://img.shields.io/badge/License-MIT-yellow) ![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green) ![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)
 
-### 🤝 Ambassador Program
-- Three-tier system (Partner → Ambassador → Pioneer)
-- Complete playbook: pitch templates, briefing flow, contract terms, onboarding steps
-- Japan market-specific notes and templates
+提供 KOL 分析框架、Ambassador 运营 SOP、SEO 外链工具、YouTube Campaign 管理
+生成一个真正能替她跑 Growth 的 AI Skill
+用她的筛选标准评估 KOL，用她的播粉比基准线做判断，知道什么时候该投什么市场
 
-### 🔗 SEO & Backlink
-- **Backlink Comment Tool** (Chrome extension): Ahrefs-powered competitive backlink commenting
-- **Backlink Pilot** (CLI): Bulk directory submission to 259+ sites
-- Keyword research 6-step playbook
-- DR improvement strategy
+[安装](#安装) · [使用](#使用) · [内容概览](#内容概览) · [文件结构](#文件结构)
 
-### 📺 YouTube Campaign Management
-- KOL tier pricing reference (Micro/Mid/Large)
-- Budget allocation frameworks
-- Market priority rankings with rationale
+</div>
 
-### 📋 Also Includes
-- X/Twitter outreach classification and hygiene rules
-- Landing page design workflow
-- Agency collaboration tips (Deeplink, 正和增长, Aha)
-- Decision quick-reference table
-- All relevant Lark doc links and archive references
+---
 
-## Structure
+## 安装
 
-```
-├── SKILL.md                        # Main skill file (~11.5KB)
-├── references/
-│   ├── analyzed-channels.md        # 35+ channels analyzed (top picks by market)
-│   └── apify-workarounds.md        # Apify quirks & fallback solutions
-└── README.md
-```
-
-## Usage
-
-This skill is designed to be loaded by AI agents. Point your agent's skill directory to this repo:
-
-```
-# OpenClaw / Hermes — add to workspace skills
+```bash
+# OpenClaw / Hermes — 添加到 workspace skills
 git clone https://github.com/haoylai11-dotcom/Jiayu.skill.git skills/jiayu-growth-marketing
 ```
 
-Then ask your agent things like:
-- "帮我分析这批 YouTube 频道 list"
-- "找做过 Manus 视频的日本 KOL"
-- "用 Backlink Pilot 提交我们的网站"
-- "帮我写一个 KOL campaign brief"
+## 使用
 
-## Author
+让你的 AI agent 执行 Growth Marketing 任务：
 
-**Jiayu Xie (谢佳雨)** — Head of Growth @ Kuse Inc.
+```
+"帮我分析这批 YouTube 频道 list"
+"找做过 Manus 视频的日本 KOL，输出推荐名单"
+"用 Backlink Pilot 提交我们的网站到目录站"
+"帮我写一个 YouTube KOL campaign brief"
+"这个频道的播粉比怎么样，值不值得合作"
+```
 
-Built with the help of [Rin](https://github.com/kuse-ai) 💎
+## 内容概览
+
+| 模块 | 覆盖内容 |
+|------|---------|
+| 🎯 KOL/KOC 筛选与评估 | 竞品反查、地区定向搜索、9 维度分析框架、播粉比基准线、ICP 匹配规则 |
+| 🤝 Ambassador Program | 三级体系、Pitch 文案模板、签约全流程、Onboarding SOP |
+| 🔗 SEO & Backlink | Backlink Comment Tool + Backlink Pilot、Keywords 六步法、DR 提升策略 |
+| 📺 YouTube Campaign | KOL 分级定价、预算分配、市场优先级排序 |
+| 📣 X/Twitter Outreach | KOL 三类分法、Outreach 注意事项 |
+| 📄 Landing Page | 设计流程、竞品参考、Lark 模板 |
+| 🏢 Agency 合作 | Deeplink / 正和增长 / Aha 三家对比、沟通 Tips |
+
+## 文件结构
+
+```
+├── SKILL.md                        # 主文件，完整 Growth Marketing 工作流
+├── references/
+│   ├── analyzed-channels.md        # 35+ 已分析频道（JP/KR/US/PL top picks）
+│   └── apify-workarounds.md        # Apify 踩坑记录 & fallback 方案
+└── README.md
+```
+
+## 关于
+
+蒸馏自 **Jiayu Xie (谢佳雨)** 在 [Kuse Inc.](https://kuse.ai) 的 Growth Marketing 工作体系（2026 Q1-Q2）。
+
+Built with the help of Rin 💎
