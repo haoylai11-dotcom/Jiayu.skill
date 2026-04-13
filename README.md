@@ -2,7 +2,7 @@
 
 # Jiayu.skill
 
-> "KOL 不是找来的，是筛出来的。播粉比骗不了人，均播才是真实触达。"
+> "Growth 没有银弹，只有把每个渠道的 ROI 算明白，然后 all in 最高的那个。"
 
 **把 Growth Marketing 的工作流蒸馏成 AI Skill，让它替她工作。**
 
@@ -58,6 +58,15 @@ git clone https://github.com/haoylai11-dotcom/Jiayu.skill.git skills/jiayu-growt
 │   └── apify-workarounds.md        # Apify 踩坑记录 & fallback 方案
 └── README.md
 ```
+
+## 一些我的经验
+
+- agency 一开始要画大饼 预算别说太细 让他们觉得你是大客户 达人量才会多
+- 小频道播粉比天然高 大频道维持 5% 就算强 不能一刀切
+- 已经发过我们产品内容的 KOL 永远是最高优先级
+- CPM 才是核心性价比指标 不是报价绝对值
+- 日本市场 KOL 密度最高竞争最小 同预算 ROI 比英语市场高
+- Ambassador 长期合作（$200/月+15%）比单次付费视频（$2000+）划算 前提是人真的活跃
 
 ## 关于
 
